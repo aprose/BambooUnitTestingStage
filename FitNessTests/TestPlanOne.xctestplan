@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "ACDBC57C-6AFA-4371-8A7C-944D2776C4B9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "DataModelTests\/testGoal_whenUserCaught_cannotBeReached()",
+        "DataModelTests\/testModel_whenNessieAheadofUser_isCaught()",
+        "DataModelTests\/testModel_whenRestarted_distanceIsCleared()",
+        "DataModelTests\/testModel_whenRestarted_goalIsUnset()",
+        "DataModelTests\/testModel_whenRestarted_nessieIsReset()",
+        "DataModelTests\/testModel_whenRestarted_stepsAreCleared()",
+        "DataModelTests\/testModel_whenStarted_goalIsNotReached()",
+        "DataModelTests\/testModel_whenStarted_userIsNotCaught()",
+        "DataModelTests\/testModel_whenStepsReachGoal_goalIsReached()",
+        "DataModelTests\/testModel_whenUserAheadOfNessie_isNotCaught()"
+      ],
+      "target" : {
+        "containerPath" : "container:FitNess.xcodeproj",
+        "identifier" : "4CCF44012705277700DD29AB",
+        "name" : "FitNessTests"
+      }
+    }
+  ],
+  "version" : 1
+}
